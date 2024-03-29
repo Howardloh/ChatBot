@@ -22,9 +22,9 @@ Ensure you have Python 3.6 or newer installed on your system. The application de
 pip install nltk gtts pygame datetime re
 
 ### 2. Download NLTK Data
->>> import nltk
->>> nltk.download('punkt')
->>> nltk.download('wordnet')
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
 
 ### 3. Running the Application
 python App.py
